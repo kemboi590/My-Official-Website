@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .nav__logo {
@@ -50,8 +51,9 @@ nav {
    
     /* making nav_hamburger visible */
     .nav__hamburger {
-        display: block;
-       
+      display: block;
+      position: relative;
+      left:0 ;
     }
      
     .nav__menu {
@@ -71,14 +73,14 @@ nav {
     .show {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: absolute; 
         top: 3rem;
         right: 0;
         background: var(--color-primary);
         width: 100vw;
         padding: 2rem;
         gap: 1rem;
-        z-index: 10;
+        z-index: 10; 
       
     }
   }

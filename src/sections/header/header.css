@@ -74,6 +74,10 @@ header{
         height: 20rem;
         border-radius: 9rem 9rem 2rem 2rem;
     }
+    .header__socials {
+        display: none;
+       
+        }
 
 }
 
@@ -108,13 +112,8 @@ header{
     }
 
     .header__socials {
-    display: flex;
-    flex-direction: row;
-    }
-    .header__socials a {
-        width: 1rem;
-        font-size: 0.8rem;
-        align-items: center;
+    display: none;
+   
     }
 
 }

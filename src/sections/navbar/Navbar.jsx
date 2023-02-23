@@ -20,8 +20,6 @@ const Navbar = () => {
         </ul>
         <FaBars className='nav__hamburger' onClick={() => setIsOpen(!isOpen)} />
       </div>
-  
-     
     </nav>
   )
 }
