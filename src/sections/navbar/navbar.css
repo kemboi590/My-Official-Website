@@ -1,0 +1,84 @@
+nav {
+    width: 100vw;
+    height: 5rem; 
+    display: grid;
+    place-items: center;
+    background: var(--color-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+    transition: var(--transition);
+  }
+  
+  .nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__logo {
+    width: 4.0rem;
+    height: 4.1rem;
+    border-radius: 50%; 
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .nav__menu {
+    display: flex;
+    gap:  3.5rem; 
+  }
+
+  .nav__hamburger {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+  
+  /* Hide nav menu on tablets and phones */
+  @media screen and (max-width: 1024px) {
+    /* Show a hamburger menu icon instead of the logo */
+    .nav__logo {
+      display: none;
+    }
+     nav {
+        height: 3rem;
+    }
+   
+    /* making nav_hamburger visible */
+    .nav__hamburger {
+        display: block;
+    }
+     
+    .nav__menu {
+      display: none;
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      width: 100%;
+      background: var(--color-primary);
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+  
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        background: var(--color-primary);
+        width: 100vw;
+        padding: 2rem;
+        gap: 1rem;
+        z-index: 10;
+      
+    }
+  }
+  

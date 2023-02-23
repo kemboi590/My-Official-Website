@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4abf6804-372f-42a0-a977-568276b54d73/AppServices/subscriptions/4abf6804-372f-42a0-a977-568276b54d73/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Official-website-BrianKemboi",
+    "appService.deploySubpath": "."
+}
