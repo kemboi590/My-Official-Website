@@ -51,7 +51,7 @@ nav {
     /* making nav_hamburger visible */
     .nav__hamburger {
         display: block;
-        right: 0;
+       
     }
      
     .nav__menu {
