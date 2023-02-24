@@ -3,7 +3,7 @@ import IMG1 from "../../images/cmcmotors.jpeg";
 import IMG2 from "../../images/blackjack.jpg";
 import IMG3 from "../../images/linksaver.jpg";
 import IMG4 from "../../images/web.png";
-import IMG5 from "../../images/portfolio5.jpg";
+import IMG5 from "../../images/printf.jpg";
 import IMG6 from "../../images/simpleShell.png";
 
 const data = [
@@ -52,9 +52,9 @@ const data = [
     id: 6,
     image: IMG6,
     title: "Simple Shell",
-    description: "simple shell is a",
-    github: "https://github.com/kemboi590/printf",
-    demo: "https://github.com/kemboi590/printf",
+    description: "Simple Shell is a software project developed using the C programming language that aims to emulate the functionality of the Bash Shell. The project was created as part of the ALX Africa Software Engineering Holberton School curriculum to provide students with a deeper understanding of how operating systems work. The Simple Shell project offers users the ability to interact with the computer's operating system through a command-line interface. Users can execute various commands and programs, navigate the file system, and manage processes using this interface. Additionally, the Simple Shell project supports input/output redirection, pipelines, and background processes, giving users greater control over their system.The project provides a solid foundation for building more complex shell programs and applications.",
+    github: "https://github.com/kemboi590/simple_shell",
+    demo: "https://github.com/kemboi590/simple_shell",
   }
     
 ];
