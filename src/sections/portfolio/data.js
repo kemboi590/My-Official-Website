@@ -4,6 +4,7 @@ import IMG2 from "../../images/blackjack.jpg";
 import IMG3 from "../../images/linksaver.jpg";
 import IMG4 from "../../images/web.png";
 import IMG5 from "../../images/portfolio5.jpg";
+import IMG6 from "../../images/simpleShell.png";
 
 const data = [
     {
@@ -46,7 +47,15 @@ const data = [
       description: "Prinf project is a C programming project I completed while studying at ALX Africa Software Engineering Holberton School. The project involved creating a function named '_printf' that would imitate the actual 'printf' command located in the stdio.h library. By implementing my skills in the C programming language, I was able to create a functional and dynamic program that allowed me to format and print output in a variety of ways.This project was a significant milestone in my development as a software engineer, as it allowed me to deepen my understanding of the C programming language and develop my skills in software development. Through this project, I learned how to design and implement complex algorithms, work with different data structures, and solve complex problems using programming techniques",
       github: "https://github.com/kemboi590/printf",
       demo: "https://github.com/kemboi590/printf",
-    },
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "Simple Shell",
+    description: "simple shell is a",
+    github: "https://github.com/kemboi590/printf",
+    demo: "https://github.com/kemboi590/printf",
+  }
     
 ];
 export default data;
