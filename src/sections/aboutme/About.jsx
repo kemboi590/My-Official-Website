@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImage from '../../images/about.jpg';
-import Resume from '../../images/resume.pdf';
+import Resume from '../../images/resume.docx';
 import { HiDownload } from 'react-icons/hi'
 import Cards from '../../components/Cards';
 import data from './data';
@@ -29,19 +29,13 @@ const About = () => {
               }
           </div>
           <p>
-            I am a web developer with a focus on building user-friendly interfaces using ReactJS.
-            With over a year of experience in the industry, I have honed my skills in front-end technologies and am always
-            looking to stay up to date on the latest developments.
-            I also have experience working with cloud computing platforms, specifically Azure. Whether you're
-            looking to build a new website or improve upon an existing one, I am dedicated to delivering high-quality,
+            I am a web developer with a focus on developing full stack web applications using ReactJS library, Node JS, express framwork and SQL lite.
+            With over 3 years of experience, I have honed my skills in both front-end, backend and cloud technologies.
+  
+            Whether you're looking to build a new website or improve upon an existing one, I am dedicated to delivering high-quality,
             reliable solutions that meet your needs.
           </p>
 
-          <p>
-          I also have experience working with cloud computing platforms, specifically Azure. Whether you're
-            looking to build a new website or improve upon an existing one, I am dedicated to delivering high-quality,
-            reliable solutions that meet your needs.
-          </p>
           <a href={Resume} download className='btn primary'>Download Resume
             <HiDownload /> </a>   
         </div>
