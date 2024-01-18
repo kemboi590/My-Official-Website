@@ -8,6 +8,8 @@ import Contact from './sections/contact/Contact';
 import Portfolio from './sections/portfolio/Portfolio';
 
 const App = () => {
+  //app jsx code
+  
   return (
       <main>
           <Navbar />
